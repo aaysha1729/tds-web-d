@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+header .logo img {
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu {
+    padding: 50px;
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.menu-section {
+    margin-bottom: 50px;
+}
+
+.menu-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-section ul li h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+.menu-section ul li p {
+    color: #777;
+}
+
+.menu-section ul li span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+footer p, footer a {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.registration {
+    padding: 50px;
+    text-align: center;
+}
+
+.registration h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.registration form {
+    display: inline-block;
+    text-align: left;
+}
+
+.registration form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration form input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.registration button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #555;
+}
+
+
